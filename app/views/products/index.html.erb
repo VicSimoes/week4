@@ -2,20 +2,11 @@
   <h1>Product Catalog</h1>
 </div>
 
-<div class="row">
-  <div class="col-md-12">
-    <h3><a href="/products/show">iPhone</a></h3>
-  </div>
-</div>
 
+<% @product_list.each do |product| %>
 <div class="row">
   <div class="col-md-12">
-    <h3><a href="/products/show">Sofa</a></h3>
+    <h3><a href="/products/show"><%= product %></a></h3>
   </div>
 </div>
-
-<div class="row">
-  <div class="col-md-12">
-    <h3><a href="/products/show">Coffee Mug</a></h3>
-  </div>
-</div>
+<% end %>

@@ -1,7 +1,7 @@
 class ProductsController < ApplicationController
 
   def index
-    @product_list = ["iPhone", "Sofa", "Coffee Mug"]
+    @product_list = ["Helicopter Toy", "Harry Potter", "iPhone", "Sofa", "Coffee Mug"]
   end
 
   def show
